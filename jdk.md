@@ -23,8 +23,8 @@
 
 # CONSTRUCTOR
 
-1. Initilzation 
-   instantiation (objection creation phase is instatiation)
+1. Initilzation (set of instruct)
+   instantiation (objection creation phase is     instatiation)
 
 2. ClassName & COnstructor Name --> Same
 3. never returntype  
@@ -32,8 +32,7 @@
 
 SYNTAX : AccessSpecifier ClassName(){
             -----------
-          }
-
+          } 
 
   // Non-Parameterized Custom Constructor   
  #         class Car {

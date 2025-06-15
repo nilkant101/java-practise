@@ -127,8 +127,8 @@ multiple fcn with same name their some have difference in archetecherre / differ
 #            STATIC 
          we will used in 
 veriable , method , class , Block 
-
-
+                      |
+           <!-- innerClass is Static not outer (we wil see later) -->
 class Student { <!--Class is a platform to store    state and behaviour of an Obj-->
 
 static int age = 10 ;
@@ -139,12 +139,12 @@ static int age = 10 ;
 1. static is a keyword which can be used with 
     [ class, veriable , method and blocks. ]
 
-2. The class Loader loads all the static    properties  inside a memory 
-  location called Class Static Area or Static Pool.
+2. The class Loader loads all the static properties inside a memory 
+   location called Class Static Area or Static Pool.
 
 3. all the static properties access with the className.
 
-4. static properties can be accessed directly or with the help of     ClassName in the same class
+4. static properties can be accessed directly or with the help of ClassName in the same class
 
 5. static properties accessed only with the help of ClassName in the different/ another class.
 
@@ -215,5 +215,6 @@ syntax :  {}
 
 
 📍note - we can initialize static veriable in a non- static block its not a good practicce
+
 
 
