@@ -20,6 +20,7 @@
      4. Method Area - Implementation of method is stored here
      5. Naticve area 
 
+* ----------------------------------------------------------------
 
 # CONSTRUCTOR
 
@@ -118,7 +119,7 @@ Class A {
     }
 }
 ---------------------------------------------------------------
-1. Global / Member variables are those variables which are declared in the class limit/Scope
+1. Global/ Member variables are those variables which are declared in the class limit/Scope
 
 2. They can be accessed globally ie. through out the class
 
@@ -126,6 +127,14 @@ Class A {
          a. Static
          b. Non-static
 --------------------------------------------------------
-1. Local variabels are those variables which are delared within a specific scope or limit such as method, constructor etc.....
+1. Local variabels are those variables which are delared within a specific      scope or limit such as method, constructor etc.....
 2. Local variables are accessible within that specific scope
 ----------------------------------------------------------------
+
+# This Keyword
+
+1. In java, we can have both member/ global and local variable names same, then always the local variables will dominate the member variables
+* -- In order to avoid the dominating part we make use pf "this"Keyword
+
+2. THIS keyword which is used to pointing to the current object/ instance..
+
