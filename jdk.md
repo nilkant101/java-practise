@@ -1,12 +1,13 @@
 # JDK --
-🌿 is software its contain all the sources to devlop a java program execute a java progarm 
+🌿 is software its contain all the sources to devlope
+ a java program execute a java progarm 
 
 # Jre
 🌿 its provide platform only for the execution of program
     - devlopment tools and libraries
 
 1. JIT - just in time compiler (HLL ----> MLL)
-2. Class Loader - the classs loader is loaad the class 2ndray Storage(hrd drive our pc to) to executable area 
+2. Class Loader - The class loader is loaad the class 2ndray Storage(hrd drive our pc to) to executable area 
 3. Interpreater --> interprets the code line by line
 4. JVM --> java vertual machine
    JVM -> is the manager of the JRE.

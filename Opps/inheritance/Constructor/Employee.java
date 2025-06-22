@@ -1,4 +1,4 @@
-package Opps.inheritance.function;
+package Opps.inheritance.Constructor;
 
 public class Employee {
         int id;
@@ -9,6 +9,7 @@ public class Employee {
             this.id = id;
             this.name = name;
             this.salary = salary;
+
         }
 
         public void display(){
@@ -22,7 +23,6 @@ public class Employee {
             Employee e2 = new Employee(11,"Wakle", 20000);
             e1.display();
             e2.display();
-
         }
 
 
